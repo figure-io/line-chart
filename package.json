@@ -21,6 +21,7 @@
     "url": "git://github.com/figure-io/chart-line.git"
   },
   "keywords": [
+    "data visualization",
     "figure",
     "figure.io",
     "chart",
@@ -30,9 +31,14 @@
   "bugs": {
     "url": "https://github.com/figure-io/chart-line/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "figure.io": "0.0.1",
+    "jsdom": "^1.0.0-pre.3"
+  },
   "devDependencies": {
     "chai": "1.x.x",
+    "coveralls": "^2.11.1",
+    "istanbul": "^0.3.0",
     "mocha": "1.x.x"
   },
   "licenses": [
