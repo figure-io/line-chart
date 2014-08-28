@@ -2,7 +2,7 @@
 
 // MODULES //
 
-var createFigure = require( './../lib' );
+var Figure = require( './../lib' );
 
 
 // Data:
@@ -12,4 +12,10 @@ var data = require( './line.data.json' );
 
 // FIGURE //
 
-console.log( createFigure( {}, data ) );
+var figure = new Figure();
+
+figure
+	.config( {} )
+	.data( data );
+
+console.log( figure.create() );

@@ -1,0 +1,63 @@
+{
+	"id": "",
+	"type": "line",
+	"canvas": {
+		"width": 600,
+		"height": 400
+	},
+	"axes": [
+		{
+			"scale": "x",
+			"label": "x",
+			"format": "null",
+			"ticks": 5,
+			"orient": "bottom"
+		},
+		{
+			"scale": "y",
+			"label": "y",
+			"format": null,
+			"ticks": 5,
+			"orient": "left"
+		}
+	],
+	"scales": [
+		{
+			"name": "x",
+			"type": "linear",
+			"domain": {
+				"min": null,
+				"max": null
+			}
+		},
+		{
+			"name": "y",
+			"type": "linear",
+			"domain": {
+				"min": 0,
+				"max": 1
+			}
+		}
+	],
+	"marks": [
+		{
+			"type": "line",
+			"data": "line 0",
+			"description": "",
+			"properties": {
+				"interpolation": "linear",
+				"tension": 1.0
+			}
+		}
+	],
+	"annotations": [
+		{
+			"type": "title",
+			"text": "",
+			"position": {
+				"left": 0,
+				"top": -30
+			}
+		}
+	]
+}
